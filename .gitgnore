@@ -1,0 +1,49 @@
+# Arquivos de ambiente
+.env
+.env.local
+.env*.local
+
+# Arquivos de API e configurações sensíveis
+*.key
+*.pem
+config.ini
+secrets/
+
+# Arquivos de áudio temporários
+*.mp3
+*.wav
+*.ogg
+
+# Cache e arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+ENV/
+
+# Editor e IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e diagnósticos
+*.log
+logs/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos do Raspberry Pi
+*.img
+*.bak
+
+# Arquivos gerados pelo gTTS
+tts_*.mp3
+
+# Banco de dados local (se aplicável)
+*.db
+*.sqlite
